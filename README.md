@@ -10,5 +10,10 @@ Static file  http://127.0.0.1:8000/static/test.txt <br>
 <hr>
 <b>Where to add templates file</b><br>
 dir => Hello(<em>Inside Project file</em>)=> settings.py TEMPLATES(<em>TEMPLATES(array)=>DIRS=["you can store here templates file location"]</em>)<br>
-current file =DIRS=[BASE_DIR / "static",]
+current file =DIRS=[BASE_DIR / "templates",]
 <hr>
+<b>Admin Panel</b><br>
+Run this command to migrate file
+python manage.py migrate<br>
+now you can Open<br>
+http://127.0.0.1:8000/admin/
