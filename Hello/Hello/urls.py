@@ -19,5 +19,7 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('home.urls'))#urls.py in home folder
-    
 ]
+admin.site.site_header = "Omkar Project"
+admin.site.site_title = "Admin Omkar Django Project"
+admin.site.index_title = "Hello Omkar"
