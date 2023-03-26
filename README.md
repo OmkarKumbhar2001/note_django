@@ -4,4 +4,4 @@ here project name => Hello<br>
 cd Hello <br>
 python manage.py runserver <br>
 Open => http://127.0.0.1:8000/<br>
-Create app ==>python manage.py startapp home <em>home is name of app</em> <br> 
+Create app ==>python manage.py startapp home <b><em>home is name of app</em></b> <br> 
