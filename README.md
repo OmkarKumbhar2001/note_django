@@ -15,5 +15,14 @@ current file =DIRS=[BASE_DIR / "templates",]
 <b>Admin Panel</b><br>
 Run this command to migrate file
 python manage.py migrate<br>
+Create Super User<br>
+python manage.py createsuperuser<br> 
+Username (leave blank to use 'omkar'): admin <br>
+Email address: set empty<br>
+Password:admin<br>
+Password (again):admin<br>
+Bypass password validation and create user anyway? [y/N]: y<br>
 now you can Open<br>
 http://127.0.0.1:8000/admin/
+User name = admin <br>
+password =admin   <br>
