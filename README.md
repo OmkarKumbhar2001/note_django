@@ -26,3 +26,19 @@ now you can Open<br>
 http://127.0.0.1:8000/admin/
 User name = admin <br>
 password =admin   <br>
+<b>How to Change Django administration name</b><br>
+add these tags inside project Hello=> urls.py
+admin.site.site_header = "Omkar Project" <br>
+admin.site.site_title = "Admin Omkar Django Project" <br>
+admin.site.index_title = "Hello Omkar" <br>
+<hr>
+Template inheritance<br>
+we can use base.html as a main html file for navbar and footer<br>
+{% extends 'base.html' %}<br>
+{%block title%}  this code only paste in each html file<br>
+    Home page title <br>
+{%endblock title%}  <br>
+{%block body%}  this code only paste in each html file<br>
+    modified code for each file we can store here<br>
+{%endblock body%} <br>
+for refrence you can check teplates folder<br>
